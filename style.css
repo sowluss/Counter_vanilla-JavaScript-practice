@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('abstract-blur.jpg') center/cover no-repeat;
+  /* background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  color: #fff;
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+
+.counter-box {
+  flex: 0 0 70%;
+  text-align: center;
+  border: 2px solid rgb(223, 223, 223);
+  padding: 1rem;
+  font-weight: bold;
+  box-shadow: 2px 2px 3px 3px rgb(89, 89, 89);
+}
+
+.counter {
+  font-size: 6rem;
+}
+
+.btn {
+  /* background: #f4f4f4; */
+  background: transparent;
+  font-size: 1.2rem;
+  padding: .5rem;
+  margin: .5rem .5rem;
+  outline: none;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.btn:hover {
+  background: rgb(145, 242, 193);
+  color: black;
+  border: 1px solid #000;
+  transition: all .2s ease-in;
+}
+
+.btn:active {
+  box-shadow: 0px 2px white;
+}
